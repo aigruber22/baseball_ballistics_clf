@@ -1,0 +1,22 @@
+full_pitch,pitch,pitch_rollup
+Four-Seam Fastball,FF,fastball
+Two-Seam Fastball,FT,fastball
+Fastball (cutter),FC,fastball
+Fastball (sinker/split-fingered),FS,fastball
+Fastball (sinker/split-fingered),SI,fastball
+Fastball (sinker/split-fingered),SF,fastball
+Slider,SL,offspeed
+Changeup,CH,offspeed
+Curveball,CB,offspeed
+Curveball,CU,offspeed
+Knuckle-curve,KC,offspeed
+Knuckleball,KN,offspeed
+Eephus,EP,offspeed
+Unidentified,UN,other
+Unidentified,XX,other
+Pitch out,PO,other
+Pitch out,FO,other
+Screwball,SC,offspeed
+Unidentified,None,other
+Automatic ball,AB,other
+Intentional ball,IN,other

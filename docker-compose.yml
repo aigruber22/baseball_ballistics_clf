@@ -1,0 +1,14 @@
+version: '3'
+services:
+    jupyter:
+        image: jupyter/scipy-notebook
+        ports:
+            - 8888:8888
+        volumes:
+            - .:/home/jovyan
+    postgres:
+        build: docker/postgres 
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
+volumes:
+    postgres_data:
