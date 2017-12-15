@@ -6,6 +6,12 @@ import seaborn as sns
 import time
 import random
 
+from scipy import stats
+from scipy.stats import boxcox
+
+from IPython import get_ipython
+get_ipython().run_line_magic('matplotlib', 'inline')
+
 from sklearn.utils import resample
 
 from scrapy.selector import Selector
@@ -27,3 +33,5 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.metrics import roc_auc_score, classification_report, accuracy_score, log_loss
