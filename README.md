@@ -18,6 +18,10 @@ Target: `hit_flag` == `True` or `False`
 ### Risks / Assumptions / Limitations
 Limited fields to select from pertaining to ballistics, potential risk in predictability of hit.
 
+## Feature Information
+Zone numbers explained in attached .png:
+
+
 
 ## Steps
 1. **Scrape** baseballsavant.mlb.com for pitch-level statcast data from the 2017 season and **store pitch data in postgres**

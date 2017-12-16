@@ -12,8 +12,6 @@ from scipy.stats import boxcox
 from IPython import get_ipython
 get_ipython().run_line_magic('matplotlib', 'inline')
 
-from sklearn.utils import resample
-
 from scrapy.selector import Selector
 from scrapy.http import HtmlResponse
 
@@ -26,6 +24,7 @@ import re
 
 import missingno as msno
 
+from sklearn.utils import resample
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import fbeta_score, f1_score
 from sklearn.neighbors import KNeighborsClassifier
@@ -34,4 +33,5 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.feature_selection import SelectFromModel
 from sklearn.metrics import roc_auc_score, classification_report, accuracy_score, log_loss
