@@ -24,14 +24,11 @@ import re
 
 import missingno as msno
 
-from sklearn.utils import resample
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import fbeta_score, f1_score
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.preprocessing import MinMaxScaler
 from sklearn.feature_selection import SelectFromModel
-from sklearn.metrics import roc_auc_score, classification_report, accuracy_score, log_loss
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import roc_auc_score, classification_report, accuracy_score, log_loss, f1_score, fbeta_score
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.utils import resample
