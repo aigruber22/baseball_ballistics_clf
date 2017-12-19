@@ -24,6 +24,7 @@ import re
 
 import missingno as msno
 
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_selection import SelectFromModel
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import roc_auc_score, classification_report, accuracy_score, log_loss, f1_score, fbeta_score
