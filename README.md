@@ -4,7 +4,9 @@ Repository for my General Assembly Data Science Immersive Capstone Project - pre
 ## Executive Summary
 
 ### Problem Statement
-MLB Advanced Media, as stated in a job description for which I was intrigued by, was looking to develop insights into probability and prediction of a hit based on data acquired through their Statcast tool. Statcast is a high-speed, high-accuracy device that tracks ball and player movements. This is information intended to be used by analysts and commentators during game broadcasts. The problem statement for the specfic prediction I undertook is:
+MLB Advanced Media, as stated in a job description for which I was intrigued by, was looking to develop insights into predictability of a hit based on data acquired through their Statcast tool. Statcast is a high-speed, high-accuracy device that tracks ball and player movements. 
+
+The findings of this task would be for use by analysts and commentators during game broadcasts. The problem statement for the specific prediction I undertook is:
 
 Based on the ballistics of the pitch and the ball hit into play, what is the likelihood it results in a hit.
 
