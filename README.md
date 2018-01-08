@@ -51,6 +51,7 @@ dtypes: bool(1), float64(3), int64(3), object(11)
 memory usage: 17.6+ MB
 
 `zone` categories explained in attached .png:
+![alt text](https://github.com/aigruber22/baseball_ballistics_clf/blob/master/zone.png)
 
 ### Findings
 
