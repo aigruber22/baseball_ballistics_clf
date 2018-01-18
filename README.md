@@ -53,8 +53,6 @@ memory usage: 17.6+ MB
 `zone` categories explained in attached .png:
 ![](https://github.com/aigruber22/baseball_ballistics_clf/blob/master/zone.png)
 
-### Findings
-
 
 ### Risks / Assumptions / Limitations
 Limited fields to select from pertaining to ballistics, potential risk in predictability of hit.
