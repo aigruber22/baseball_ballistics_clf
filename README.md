@@ -72,7 +72,7 @@ Limited fields to select from pertaining to ballistics, potential risk in predic
     min_abs=0&type=details&player_id={}'.format(player_id)`
 
 2. **Clean data** by handling null values and adjusting data types and **engineer features** necessary for analysis
-- Read in and inspect data from Postres
+- Read in and inspect data from Postgres
 - Inspect null-values, determine null definitions, and incorporate null-handling procedures
 
 |   Fields   |   Null Meaning  |   Data Type   |
