@@ -61,7 +61,7 @@ Limited fields to select from pertaining to ballistics, potential risk in predic
 ## Steps
 1. **Scrape** baseballsavant.mlb.com for pitch-level statcast data from the 2017 season and **store pitch data in postgres**
 - Player-level data available at url source of data as .csv. Imported those two files to map in `player_id`.
-- Defined series of functions that are subsequently imbedded in each other. In running them on the `player_id`, the fucntions scrape the data from the url and store them in a Postgres database.
+- Defined series of functions that are subsequently imbedded in each other. In running them on the `player_id`, the functions scrape the data from the url and store them in a Postgres database.
 - Scraping is performed with `XPath` querying, parsing the html from the website to pull pertinent data. `sqlalchemy` used in tandem with PostgreSQL to store data.
 - `721,436` total pitches scraped from baseballsavant.mlb.com. These are all the pitches thrown during the 2017 MLB regular season.
 
